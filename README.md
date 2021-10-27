@@ -1,6 +1,7 @@
 # StudentZon
 A MERN application for Buy, Exchange, Sell of items. Aimed for a college environment where physical communication is very easy between sellers and buyers. Hence, can be used very effectively. For example, exchange of novels, buying second-hand books from seniors etc.
 
+
 ## Features
 
 ### Seller
@@ -20,6 +21,7 @@ A MERN application for Buy, Exchange, Sell of items. Aimed for a college environ
 ### Others
 - commenting on uploaded items
 - notifications for item status update, buyer interest etc
+
 
 ## Usage
 To run the code on localhost,
@@ -52,6 +54,7 @@ Now, move to the `client` directory and run.
 This initiates a script to run the React server on the `localhost:3000`.
 
 Open browser and go to `http://localhost:3000` to view the application.
+
 
 ## Technologies used
 - MongoDB for database management 
