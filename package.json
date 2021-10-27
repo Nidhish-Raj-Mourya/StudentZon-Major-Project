@@ -1,0 +1,58 @@
+{
+  "name": "besit-final",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apexcharts": "^3.6.7",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.1",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.5.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.12",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "multer-gridfs-storage": "^3.2.3",
+    "react": "^16.8.3",
+    "react-apexcharts": "^1.3.3",
+    "react-dom": "^16.8.3",
+    "react-responsive-modal": "^3.6.0",
+    "react-scripts": "2.1.5",
+    "react-tabs": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "echo Skip build on Heroku"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raghu150999/BESit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raghu150999/BESit/issues"
+  },
+  "homepage": "https://github.com/Raghu150999/BESit#readme",
+  "heroku-run-build-script": true
+}

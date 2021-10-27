@@ -1,0 +1,32 @@
+.interested-users-modal .card-text{
+    font-size: 5vh;
+    text-align: center;
+}
+
+.contact1 {
+    margin-top:3vh;
+}
+
+/* DispUserTitle */
+.interested-users-modal .card-title{
+    font-size: 5vh;
+    color:orange;
+}
+
+/* dispUser */
+.interested-users-modal .card, .interested-users-modal .card-body{ 
+    margin-top: 5vh;
+    width: auto;
+	height:auto;
+
+}
+.interested-users-modal .shareContact{
+float:right;
+padding-top:0.6vh;
+margin-right:5px;
+}
+.interested-users-modal #contactlabel{
+    color: black;
+    font-weight: 100;
+    font-size: 300%;
+}

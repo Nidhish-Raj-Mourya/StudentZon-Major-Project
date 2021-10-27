@@ -1,0 +1,195 @@
+
+.product .card, .item .card {
+	width: 18rem;
+    height: 28rem;
+    max-height: 28rem;
+	margin-top: 10px;
+}
+
+.product .card-img-top, .item .card-img-top
+{
+    margin-top: 15px;
+	width: 18rem;
+	height: 10rem;
+	object-fit: contain;
+}
+
+.product .card-title, .item .card-title
+{
+	display: block;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product .card-body, .item .card-body
+{
+	margin-top: 5px;
+    height: auto;
+}
+
+.price
+{
+    font-size: 20px;
+    margin: 1px;
+    height: 5px;
+    width: 5px;
+}
+
+.desc-list
+{
+	font-size: 65%;
+    margin-top: 30px;
+}
+
+
+.prod-btn
+{
+	font-size: 80%;
+    border-radius: 5px;
+	border: none;
+    margin-top: 5px;
+}	
+
+.sell-prod-btn
+{
+	font-size: 80%;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    float: left;
+    margin: 5px;
+}
+
+.prod-btn:hover
+{
+    cursor: default;
+    border: none;
+}
+
+.sell-prod-btn:hover
+{
+    cursor: default;
+    background-color: black;
+    border-color: black
+}
+
+.product .box-shadow--8dp, .item .box-shadow--8dp {
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .14),
+                2px -5px 10px 1px rgba(0, 0, 0, .14)
+}
+
+.new-item-btn
+{
+    font-size: 1.5rem;
+    width: 4rem;
+	height: 4rem;
+	z-index: 1;
+    background-color: #e99041;
+    color: white;
+    border-color: #e99041;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    padding-right: -1000px;
+    padding-left: 27px;
+}
+
+.new-item-btn:hover
+{
+    background-color:rgb(165, 38, 6);
+    color:white;
+    border-color: white;
+}
+
+
+.interest{
+    margin-right: 1vw; 
+    float:right;
+}
+
+.int-card-text{
+    font-size: 4.2vh;
+    margin-top: auto;
+    position: absolute;
+    bottom: 4.8%;
+    right: 10%;
+    font-style: italic;
+}
+
+.interestDialog{
+    overflow-y:initial;
+}
+
+.interestBody{
+    height:75vh;
+    width:65vh;
+    overflow-y:auto; 
+}
+
+.editformdialog{
+    overflow-y:initial;
+}
+
+.editformbody{
+    height:75vh;
+    width: 65vh;
+    overflow-y:auto; 
+}
+
+.uploadItemDialog{
+    overflow-y:initial;
+    width: 80vh;
+}
+
+.uploadItemBody{
+    height:75vh;
+    width: 70vh;
+    overflow-y:auto; 
+}
+
+.sellhead{
+    color: rgb(63, 144, 168);
+}
+
+/* -------------------------------------- */
+
+.interested-users-modal .card-text{
+    font-size: 0.9rem;
+}
+
+.contact1 {
+    margin-top:3vh;
+}
+
+/* DispUserTitle */
+.interested-users-modal .card-title{
+    font-size: 5vh;
+    color:orange;
+}
+
+/* dispUser */
+.interested-users-modal .card, .interested-users-modal .card-body{ 
+    width: 16rem;
+	height: auto;
+}
+
+.interested-users-modal .shareContact{
+    float:right;
+    padding-top:0.8vh;
+    margin-right:5px;
+}
+.interested-users-modal #contactlabel{
+    color: black;
+    font-weight: 100;
+}
+
+.submit-btn {
+    margin-top: 1rem;
+}
+
+.cross-btn {
+    margin-left: 14rem;
+}

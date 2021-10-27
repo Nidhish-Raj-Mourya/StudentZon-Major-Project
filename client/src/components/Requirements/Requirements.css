@@ -1,0 +1,117 @@
+.req-container
+{
+    padding-top: 50px;
+}
+
+.req-card
+{
+    height: 350px;
+    position: relative;
+    display: block;
+}
+
+.req-card .req-card-title
+{
+    font-size: 40px;
+    margin-top: -30px;
+    margin-left: -5px;
+}
+
+.req-card .username
+{
+    font-size: 25px;
+    margin-top: -20px;
+    color: orange;
+}
+
+.req-card .desc
+{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.req-card .time
+{
+    font-size: 25px;
+    margin-top: auto;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-style: italic;
+}
+
+.new-req-btn
+{
+    width: 15vh;
+    height: 15vh;
+    background-color: #e99041;
+    color: white;
+    border-color: #e99041;
+    border-radius: 50%;
+    bottom: 10%;
+    right: 10%;
+    position: fixed;
+    z-index: 100;
+    font-size: 50px;
+    text-align: center;
+}
+
+.new-req-btn:hover
+{
+    background-color: black;
+    color:gray;
+    border-color: black;
+}
+
+.box-shadow--8dp 
+{
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .14),
+                2px -5px 10px 1px rgba(0, 0, 0, .14)
+}
+.req-delbtn{
+    font-size: 80%;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    float: left;
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    margin: 5px;
+}
+
+.req-delbtn:hover
+{
+    cursor: default;
+    background-color: black;
+    border: none;
+}
+
+.new-item-btn
+{
+    font-size: 1.5rem;
+    width: 4rem;
+	height: 4rem;
+	z-index: 1;
+    background-color: #e99041;
+    color: white;
+    border-color: #e99041;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    padding-right: -1000px;
+    padding-left: 27px;
+}
+
+.new-item-btn:hover
+{
+    background-color:rgb(165, 38, 6);
+    color:white;
+    border-color: white;
+}
+
+.comment-btn {
+    margin-left: -1rem;
+    margin-top: 3.6rem;
+}
