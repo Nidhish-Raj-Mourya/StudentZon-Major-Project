@@ -37,6 +37,10 @@ Create a .env file in the root directory with,
 <pre><code> JWT_SECRET="your_secret_key"
 MONGODB_URI="your_mongodb_localhost_uri" </code></pre>
 
+``your_secret_key`` can be any string. This is used to create secure JWT tokens.
+``your_mongodb_localhost_uri`` will be your mongo localhost URI.
+Usually it is like this:
+``mongodb://localhost/<your_db_name>``
 
 ### Start Node server
 From the root directory of the project run.
