@@ -23,23 +23,23 @@ text-rendering: optimizeLegibility;
 .btn-primary{
   display: inline-block;
   padding: 1.8vh 3.5vh;
-  background-color: #e67e22;
-  border: 1px solid #e67e22;
+  background-color: #0460fC;
+  border: 1px solid #0460fC;
   color: #fff;
   border-radius: 50vh;
 }
 .btn:hover,
 .btn:active {
-  background-color: #cf6d17; 
-  border: 1px solid #cf6d17;
+  background-color: #0460fC; 
+  border: 1px solid #0460fC;
 }
 label {
-color:#e67e22;
+color:#0460fC;
 }
 span.psw{
   float: right;
   padding-top: 2.5vh;
-  color: #eda25f;
+  color: #0460fC;
 }
 a:link,
 a:visited{
@@ -48,7 +48,7 @@ a:visited{
 }
 a:hover,
 a:active{
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #0460fC;
 }
 
 .container-button{

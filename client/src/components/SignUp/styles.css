@@ -1,5 +1,5 @@
 .container-register{
-    background-color: #e99041;
+    background-color: #0460fC;
     width: 100%;  
     min-height: 100vh;
     display: -webkit-box;
@@ -13,7 +13,7 @@
     padding: 1.5vh;
 }
 #forgot1{
-    color:#924d10 ;
+    color:#0460fC ;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 3.1vh;
