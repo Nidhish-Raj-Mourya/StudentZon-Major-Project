@@ -204,7 +204,7 @@ class HomeNav extends Component {
         </button>
         <img src="https://img.icons8.com/nolan/70/000000/shopping-cart.png"/>
         <div className="logoname">
-        Bes!t
+        StudentZ🌎n
         </div>
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav homenav">
