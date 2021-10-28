@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom'
 import { logInUser } from './../../actions/userActions';
 
+
 class LogIn extends Component {
   state = {
     errormsg: '',
@@ -72,7 +73,7 @@ class LogIn extends Component {
         {msgBlock}
         {errBlock}
         <form className="loginform" onSubmit={this.handleSubmit}>
-          {/* <h1 id="title">SVVV welcomes you<br />&emsp;  to StudentZon</h1> */}
+          { <><h1 id="title">Shri Vaishnav Vidyapeeth Vishwavidyalaya&emsp; </h1><h2 id="title2">Welcomes you to StudentZ<span role="img" aria-label="Earth">&#127759;</span>n </h2></>}
           <div className="form-group">
             <div className="wrap-input100 validate-input" data-validate="Enter username">
               <label htmlFor="Username">Username</label>
@@ -80,6 +81,7 @@ class LogIn extends Component {
               <span className="focus-input100" data-placeholder="&#xf207;"></span>
             </div>
             <div className="form-group">
+              <br></br>
               <label htmlFor="Password">Password</label>
               <input type="password" className="form-control" name="password" placeholder="Password" />
             </div>

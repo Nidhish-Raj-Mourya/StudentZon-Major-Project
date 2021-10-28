@@ -34,12 +34,15 @@ text-rendering: optimizeLegibility;
   border: 1px solid #0460fC;
 }
 label {
-color:#0460fC;
+  color: black;
+  font-weight: bold;
+  background-color: salmon;
 }
 span.psw{
-  float: right;
+  float:right;
   padding-top: 2.5vh;
-  color: #0460fC;
+  color: #00FF00  ;
+  font-weight: bold;
 }
 a:link,
 a:visited{

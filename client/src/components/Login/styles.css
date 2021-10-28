@@ -1,5 +1,6 @@
+
 .container-login100 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(img/bg11.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(img/bg12.png);
     width: 100%;  
     min-height: 100vh;
     display: flex;
@@ -14,7 +15,8 @@
     position: relative;
   }
 #forgot{
-    color:#fff ;
+    color:black ;
+    font-weight: bold;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 3.2vh;
@@ -24,13 +26,26 @@
     padding: 5vh 5vh;
 }
 #title{
-    color:rgb(248, 248, 250);
-    font-size: 8.2vh;
-    font-weight: 500;
+    color:#8d3900;
+    font-size: 6.2vh;
+    font-weight: bold;
+    font-family: Abril Fatface;
     letter-spacing: 0.15vh;
     word-spacing: 1.4vh;
     padding-top: -5%; 
+    text-align: center;
     /* margin-bottom:3.9vh;  */
+  }
+  #title2{
+    color:black;
+    font-size: 4.2vh;
+    font-weight: bold;
+    font-family:System-UI;
+    text-align: center;
+  }
+
+.psw :hover {
+    background-color: salmon;
   }
 .cat{
   color: rgb(71, 157, 184);
