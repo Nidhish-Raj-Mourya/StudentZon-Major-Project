@@ -1,5 +1,6 @@
-# BESit
+# StudentZon
 A MERN application for Buy, Exchange, Sell of items. Aimed for a college environment where physical communication is very easy between sellers and buyers. Hence, can be used very effectively. For example, exchange of novels, buying second-hand books from seniors etc.
+
 
 ## Features
 
@@ -21,6 +22,7 @@ A MERN application for Buy, Exchange, Sell of items. Aimed for a college environ
 - commenting on uploaded items
 - notifications for item status update, buyer interest etc
 
+
 ## Usage
 To run the code on localhost,
 
@@ -33,10 +35,9 @@ The project is divided into two parts. One is the server side code (Nodejs) and 
 
 ### .env file
 Create a .env file in the root directory with,
-```
-JWT_SECRET="your_secret_key"
-MONGODB_URI="your_mongodb_localhost_uri"
-```
+
+<pre><code> JWT_SECRET="your_secret_key"
+MONGODB_URI="your_mongodb_localhost_uri" </code></pre>
 
 ``your_secret_key`` can be any string. This is used to create secure JWT tokens.
 ``your_mongodb_localhost_uri`` will be your mongo localhost URI.
@@ -54,11 +55,10 @@ This initiates a script to run the React server on the `localhost:3000`.
 
 Open browser and go to `http://localhost:3000` to view the application.
 
+
 ## Technologies used
 - MongoDB for database management 
 - Express and Nodejs for server side
 - React for client side
 
-## Visit
-* [YouTube Demonstration](https://www.youtube.com/watch?v=Q8lC6du36Cw)
-* [Website link](https://floating-gorge-21434.herokuapp.com/)
+
