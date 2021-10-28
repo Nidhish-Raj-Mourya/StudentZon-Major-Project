@@ -86,9 +86,9 @@
     width: 4rem;
 	height: 4rem;
 	z-index: 1;
-    background-color: #e99041;
+    background-color: #0460fc;
     color: white;
-    border-color: #e99041;
+    border-color: #0460fc;
     border-radius: 50%;
     position: fixed;
     bottom: 10%;
@@ -167,7 +167,7 @@
 /* DispUserTitle */
 .interested-users-modal .card-title{
     font-size: 5vh;
-    color:orange;
+    color:#0460fc;
 }
 
 /* dispUser */

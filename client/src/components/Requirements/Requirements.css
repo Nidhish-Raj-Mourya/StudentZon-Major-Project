@@ -21,7 +21,7 @@
 {
     font-size: 25px;
     margin-top: -20px;
-    color: orange;
+    color:#0460fc;
 }
 
 .req-card .desc
@@ -44,9 +44,9 @@
 {
     width: 15vh;
     height: 15vh;
-    background-color: #e99041;
+    background-color:#0460fc;
     color: white;
-    border-color: #e99041;
+    border-color:#0460fc;
     border-radius: 50%;
     bottom: 10%;
     right: 10%;
@@ -93,9 +93,9 @@
     width: 4rem;
 	height: 4rem;
 	z-index: 1;
-    background-color: #e99041;
+    background-color: #0460fc;
     color: white;
-    border-color: #e99041;
+    border-color: #0460fc;
     border-radius: 50%;
     position: fixed;
     bottom: 10%;
