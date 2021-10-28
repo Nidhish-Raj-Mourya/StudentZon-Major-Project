@@ -72,7 +72,7 @@ class LogIn extends Component {
         {msgBlock}
         {errBlock}
         <form className="loginform" onSubmit={this.handleSubmit}>
-          <h1 id="title">Want to sell? Want to Buy?<br />BESit Karo. Lite lo.</h1>
+          {/* <h1 id="title">SVVV welcomes you<br />&emsp;  to StudentZon</h1> */}
           <div className="form-group">
             <div className="wrap-input100 validate-input" data-validate="Enter username">
               <label htmlFor="Username">Username</label>

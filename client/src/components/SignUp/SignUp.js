@@ -76,7 +76,7 @@ class SignUp extends Component {
                       <div className="carousel-item">
                         <img src={youwant} className="d-block w-100" alt="Responsive" />
                         <div className="carousel-caption d-none d-md-block">
-                          <h2> Kehte hain ki…agar kisi cheez ko dil se chaaho to BES!T usey tumse milane ki koshish mein lag jaati hai.”</h2>
+                          <h2> Kehte hain ki…agar kisi cheez ko dil se chaaho to StudentZon usey tumse milane ki koshish mein lag jaati hai.”</h2>
                         </div>
                       </div>
 
