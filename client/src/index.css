@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 html {
-background-color: #fff;
+/* background-color: #fff; */
+background-image:  url(/client/src/components/Home/home-bg.jpg);
 color: black;
 /* font-family: 'Lato','Arial','sans-serif'; */
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -36,12 +37,12 @@ text-rendering: optimizeLegibility;
 label {
   color: black;
   font-weight: bold;
-  background-color: salmon;
+  /* background-color: salmon; */
 }
 span.psw{
   float:right;
   padding-top: 2.5vh;
-  color: #00FF00  ;
+  color: #606160  ;
   font-weight: bold;
 }
 a:link,

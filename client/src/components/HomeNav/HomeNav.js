@@ -198,13 +198,15 @@ class HomeNav extends Component {
       ));
     }
     return (
-      <nav className="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <nav className="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <img src="https://img.icons8.com/nolan/70/000000/shopping-cart.png"/>
+
         <div className="logoname">
-        StudentZ🌎n
+          StudentZ🌎n <Link to={{pathname: "/", state: {key: 0}}}></Link>
+            {/* <Link to={{pathname: "/", state: {key: 0}}} className="nav-link">StudentZ🌎n</Link>  */}
         </div>
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav homenav">

@@ -70,19 +70,25 @@ class LogIn extends Component {
     ) : ('');
     return (
       <div className="container-login100">
+        
         {msgBlock}
         {errBlock}
-        <form className="loginform" onSubmit={this.handleSubmit}>
-          { <><h1 id="title">Shri Vaishnav Vidyapeeth Vishwavidyalaya&emsp; </h1><h2 id="title2">Welcomes you to StudentZ<span role="img" aria-label="Earth">&#127759;</span>n </h2></>}
+        
+        {/* <span><h1 id="title">Shri Vaishnav Vidyapeeth Vishwavidyalaya </h1> </span> <br></br>
+        <span><h2 id="title2">Welcomes you to StudentZ<span role="img" aria-label="Earth">&#127759;</span>n </h2></span><br></br> */}
+        <form className="loginform popup"  onSubmit={this.handleSubmit}>
+          { <></>}
           <div className="form-group">
+            <div><span><h1 id="title">Shri Vaishnav Vidyapeeth Vishwavidyalaya </h1> </span>
+        <span><h2 id="title2">Welcomes you to StudentZ<span role="img" aria-label="Earth">&#127759;</span>n </h2></span><br></br></div>
             <div className="wrap-input100 validate-input" data-validate="Enter username">
-              <label htmlFor="Username">Username</label>
+              <label htmlFor="Username">&emsp; Username</label>
               <input type="text" className="form-control" name="username" aria-describedby="emailHelp" placeholder="Username" />
               <span className="focus-input100" data-placeholder="&#xf207;"></span>
             </div>
             <div className="form-group">
               <br></br>
-              <label htmlFor="Password">Password</label>
+              <label htmlFor="Password">&emsp;Password</label>
               <input type="password" className="form-control" name="password" placeholder="Password" />
             </div>
             <button type="submit" className="btn btn-primary" id="index-submit">Submit</button>

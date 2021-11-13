@@ -1,6 +1,6 @@
 
 .container-login100 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(img/bg12.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/bg12.png);
     width: 100%;  
     min-height: 100vh;
     display: flex;
@@ -14,6 +14,17 @@
     background-size: cover;
     position: relative;
   }
+
+.loginform{
+  padding-top: 1%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+
 #forgot{
     color:black ;
     font-weight: bold;
@@ -26,7 +37,7 @@
     padding: 5vh 5vh;
 }
 #title{
-    color:#8d3900;
+    color:#0460fC;
     font-size: 6.2vh;
     font-weight: bold;
     font-family: Abril Fatface;
@@ -44,9 +55,9 @@
     text-align: center;
   }
 
-.psw :hover {
+/* .psw :hover {
     background-color: salmon;
-  }
+  } */
 .cat{
   color: rgb(71, 157, 184);
   font-size: 6.3vh;
@@ -58,3 +69,18 @@
   text-align: center;
 }
 
+.form-control{
+
+  width: 93%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn{
+margin-left: 3%;
+}
+
+.h1{
+  color: #0460fC;
+ 
+}
