@@ -46,10 +46,11 @@
     position: absolute;
     top: 150px;
     left: 20px;     /*20*/
-    right:20px;
-    
-    
+    right:20px;  
     white-space: pre-wrap;
+    font-size: small;
+    font-weight: 500;
+    text-align: justify;
 }
 
 .home-req-desc-card-text 
@@ -57,10 +58,11 @@
     position: absolute;
     top: 150px;
     left: 20px;     /*20*/
-    right:20px;
-    
-    
+    right:20px;    
     white-space: pre-wrap;
+    font-size: small;
+    font-weight: 500;
+    text-align: justify;
 }
 
 .home-price-card-text 
@@ -105,12 +107,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-}
-
-p{
-    font-size: small;
-    font-weight: 500;
-    text-align: justify;
 }
 
 .card-title-color {
