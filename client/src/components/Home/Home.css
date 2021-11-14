@@ -6,21 +6,18 @@
 .feed-username
 {
     display: inline;
-    color: #0460fC;
+    color: orange;
 }
 
 .home-card
 {
-    padding-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     height: auto;
     width: 70%;
-    
     position: relative;
     background-color: white;
-    overflow-y: scroll;
-    text-overflow: ellipsis;
     border-color: black;
-    display: block;
     box-shadow: 0 4px 8px 0 rgb(2, 81, 253);
 }
 
@@ -29,7 +26,6 @@
     position: absolute;
     top: 20px;
     left: 80px;     /*10*/
-
 }
 
 .feed-time
@@ -37,18 +33,19 @@
     position: absolute;
     top: 55px;
     left: 90px;     /*20*/
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
 }
 
 .home-prod-desc-card-text 
 {
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: 20px;     /*20*/
-    right:20px;  
+    right:20px;
+    height: 150px;
     white-space: pre-wrap;
-    font-size: small;
+    font-size: 20px;
     font-weight: 500;
     text-align: justify;
 }
@@ -56,11 +53,12 @@
 .home-req-desc-card-text 
 {
     position: absolute;
-    top: 150px;
+    top: 170px;
     left: 20px;     /*20*/
-    right:20px;    
+    height: 150px;
     white-space: pre-wrap;
-    font-size: small;
+    right:20px;
+    font-size:20px;
     font-weight: 500;
     text-align: justify;
 }
@@ -70,8 +68,7 @@
     position: absolute;
     top: 120px;
     left: 20px;     /*20*/
-    right:20px;
-    height: 20px;
+    height: 150px;
     white-space: pre-wrap;
     color: rgb(23, 0, 128);
 }
@@ -82,12 +79,11 @@
     width: 50px;
     padding-bottom: 50px;
     margin-bottom: 5px;
-    
 }
 
 .desc-prod-container
 {
-    height: 150px;
+    height: 250px;
     width: 50px;
     padding-bottom: 50px;
     margin-bottom: 5px;
@@ -115,6 +111,6 @@ body{
 }
 
 .card-title-color1 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(115, 205, 233);
     height:max-content;
 }
