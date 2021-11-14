@@ -117,18 +117,18 @@ class Form extends Component {
           
           <div className="form-group">
             <label htmlFor="exampleFormControlInput1">Name Of Item</label>
-            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="eg:Harry Potter Books"></input>
+            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="eg:Harry Potter Books" required></input>
           </div>
           <div className="form-group">
             <label htmlFor="exampleFormControlInput1">Expected Price(Approx)</label>
-            <input type="text" className="form-control" id="exampleFormControlInput1"></input>
+            <input type="text" className="form-control" id="exampleFormControlInput1" required></input>
           </div>
           <div className="form-group">
             <label htmlFor="exampleFormControlTextarea1">Short Description</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
           </div>
           <h6><img src={upimage} alt="Responsive" /> Upload image</h6>
-          <input type="file" name="files" id="files" onChange={this.fileSelectHandler} accept="image/*" multiple />
+          <input type="file" name="files" id="files" onChange={this.fileSelectHandler} accept="image/*" multiple required />
           {errmsg}
           <button className="btn btn-primary submit-btn" type="submit"> Submit </button>
         </form>

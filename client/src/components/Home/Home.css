@@ -98,12 +98,13 @@
     top: 32px;
 }
 body{
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url(home-bg.jpg);*/
-    background-color: #c4e0df;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url(bg-sample.png);
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+
 p{
     font-size: small;
     font-weight: 500;

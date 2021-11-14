@@ -94,8 +94,8 @@ class Buy extends Component {
         <div className="container" style={{ padding: "10px" }}>
           <form onSubmit={this.submitHandler}>
             <div className="form-group">
-              <label className="cat">
-                <img src="https://img.icons8.com/color/48/000000/categorize.png"></img>
+              <label className="cat" >
+                <img src="https://img.icons8.com/color/48/000000/categorize.png"></img> 
                 Category</label>
               <select className="form-control">
                 {categories}
