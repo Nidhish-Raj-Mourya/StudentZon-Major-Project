@@ -99,10 +99,11 @@ class Feed extends Component {
                 <div className="row">
                   <div className="card home-card">
                     <img className="req-img" src={plan} />
-                    <div className="card-title  home-card-title">
+                    <div className="card-title-color"><div className="card-title  home-card-title">
                       <strong><div className="feed-username">{feedItem.username}</div></strong> requires <strong>{feedItem.title}</strong>
                     </div>
                     <div className="card-text feed-card-text time feed-time"><small className="text-muted">{this.calcTime(feedItem.timestamp)}</small></div><br />
+                    </div>
                     <div className="desc-req-container">
                       <div className="card-text home-req-desc-card-text">
                         {feedItem.desc}

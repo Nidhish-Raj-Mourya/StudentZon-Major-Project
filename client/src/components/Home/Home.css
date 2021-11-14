@@ -11,15 +11,16 @@
 
 .home-card
 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: auto;
     width: 60%;
     position: relative;
-    background-color: #80b3eb;
-    overflow: scroll;
+    background-color: white;
+    overflow-y: scroll;
     text-overflow: ellipsis;
-    
+    border-color: black;
+    box-shadow: blueviolet;
 }
 
 .home-card-title
@@ -27,6 +28,7 @@
     position: absolute;
     top: 20px;
     left: 80px;     /*10*/
+    background-color: blue;
 }
 
 .feed-time
@@ -41,10 +43,10 @@
 .home-prod-desc-card-text 
 {
     position: absolute;
-    top: 200px;
+    top: 150px;
     left: 20px;     /*20*/
     right:20px;
-    bottom: 20px;
+    bottom: auto;
     height: 150px;
     white-space: pre-wrap;
 }
@@ -56,7 +58,7 @@
     left: 20px;     /*20*/
     right:20px;
     height: 150px;
-    bottom: 20px;
+    bottom: auto;
     white-space: pre-wrap;
 }
 
@@ -96,7 +98,8 @@
     top: 32px;
 }
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url(home-bg.jpg);
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url(home-bg.jpg);*/
+    background-color: #c4e0df;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -107,3 +110,8 @@ p{
     text-align: justify;
 }
 
+.card-title-color{
+    background-color: blue;
+    height:50px;
+
+}
