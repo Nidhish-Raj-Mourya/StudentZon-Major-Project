@@ -38,14 +38,16 @@
 }
 #title{
     color:#0460fC;
-    font-size: 6.2vh;
+    font-size: 4.24vh;
     font-weight: bold;
     font-family: Abril Fatface;
     letter-spacing: 0.15vh;
     word-spacing: 1.4vh;
     padding-top: -5%; 
     text-align: center;
-    /* margin-bottom:3.9vh;  */
+    background-color: white;
+   border-radius: 5px;
+    margin-bottom:0.5vh; 
   }
   #title2{
     color:black;
@@ -53,6 +55,7 @@
     font-weight: bold;
     font-family:System-UI;
     text-align: center;
+    
   }
 
 /* .psw :hover {
@@ -82,5 +85,50 @@ margin-left: 3%;
 
 .h1{
   color: #0460fC;
+  text-align: center;
  
 }
+
+
+
+.container-register{
+  background-color: #0460fC;
+  width: 100%;  
+  /* min-height: 100vh; */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5vh;
+  padding-bottom: 0vh;
+  height:auto;
+  /* margin-bottom: 20%; */
+}
+#forgot1{
+  color:#0460fC ;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 3.1vh;
+  padding: 1vh;
+}
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+}
+
+#cardregister{
+  width: 95%;
+  margin-bottom: 8.5vh;
+  margin-top: 8.7vh;
+}
+
+.card-body{
+  /* margin-top:1.6vh; */
+  align-items: center;
+  padding-top: 15%;
+}
+
