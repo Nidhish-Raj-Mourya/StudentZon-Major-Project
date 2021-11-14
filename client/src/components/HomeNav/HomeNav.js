@@ -197,8 +197,9 @@ class HomeNav extends Component {
         </div>
       ));
     }
+    
     return (
-      <nav className="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+      <nav className="navbar navbar-expand-sm bgnav navbar-dark sticky-top" >
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
