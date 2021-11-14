@@ -4,6 +4,7 @@ import axios from 'axios'
 import books from './img/books.jpg';
 import youwant from './img/youwant.jpg';
 import tired from './img/tired.jpg';
+import bg1 from './img/bg1.png';
 import { Link } from 'react-router-dom'
 
 class SignUp extends Component {
@@ -56,7 +57,7 @@ class SignUp extends Component {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8" >
               <div className="bd-example">
                 <div className="flex-centered">
-                  <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+                  {/* <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
 
                     <ol className="carousel-indicators">
                       <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
@@ -97,7 +98,26 @@ class SignUp extends Component {
                       <span className="carousel-control-next-icon" aria-hidden="true"></span>
                       <span className="sr-only">Next</span>
                     </a>
-                  </div>
+                  </div> */}
+
+<div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+  
+                      
+  <div className="carousel-inner">
+
+    <div className="carousel-item active">
+      <img src={bg1} className="d-block w-100" alt="Responsive" />
+      <div className="carousel-caption d-none d-md-block">
+        {/* <h2>Your one-stop destination for books</h2> */}
+      </div>
+    </div>
+
+    
+  </div>
+
+  
+</div>
+
                 </div>
               </div>
             </div>

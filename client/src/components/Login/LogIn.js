@@ -76,7 +76,7 @@ class LogIn extends Component {
 
         <div className="container-register">
 
-<span><h3 id="title">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shri Vaishnav Vidyapeeth Vishwavidyalaya&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</h3> </span> <br></br>
+<span><h3 id="title">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shri Vaishnav Vidyapeeth Vishwavidyalaya&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</h3> </span> <br></br>
 
 
           <div className="error">
@@ -86,6 +86,7 @@ class LogIn extends Component {
             <div className="row no-gutters">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8" >
                 <div className="bd-example">
+                  
                   <div className="flex-centered">
 
 
@@ -93,12 +94,7 @@ class LogIn extends Component {
 
                     <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
   
-                      <ol className="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                      </ol>
-  
+                      
                       <div className="carousel-inner">
   
                         <div className="carousel-item active">
@@ -109,21 +105,15 @@ class LogIn extends Component {
                         </div>
   
                         
-  
-                        
                       </div>
   
-                      <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Previous</span>
-                      </a>
-  
-                      <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Next</span>
-                      </a>
+                      
                     </div>
-                  </div>
+              
+                 
+                 </div>
+
+
                 </div>
               </div>
   
@@ -145,7 +135,7 @@ class LogIn extends Component {
               <input type="password" className="form-control" name="password" placeholder="Password" />
             </div>
 
-            <button type="submit" className="btn btn-primary" id="index-submit">Submit</button>
+            <button type="submit" className="btn btn1 btn-primary" id="index-submit">Submit</button>
             <span className="psw">Don't have an account? <Link to="/signup" id="forgot"> Register now.</Link></span>
 
 
