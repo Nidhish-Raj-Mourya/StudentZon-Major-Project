@@ -205,7 +205,7 @@ class HomeNav extends Component {
         <img src="https://img.icons8.com/nolan/70/000000/shopping-cart.png"/>
 
         <div className="logoname">
-          StudentZ🌎n <Link to={{pathname: "/", state: {key: 0}}}></Link>
+          StudentZon <Link to={{pathname: "/", state: {key: 0}}}></Link>
             {/* <Link to={{pathname: "/", state: {key: 0}}} className="nav-link">StudentZ🌎n</Link>  */}
         </div>
         <div className="collapse navbar-collapse" id="navbarToggler">
