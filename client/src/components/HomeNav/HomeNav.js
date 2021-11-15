@@ -123,7 +123,7 @@ class HomeNav extends Component {
   getNotificationText = (notification) => {
     if (notification.type === 'INTEREST') {
       return (
-        <Link to={{pathname: '/sell', state: {key: 2}}} className="notification-element">
+        <Link to={{ pathname: '/sell', state: { key: 2 } }} className="notification-element">
           <div className="notification-wrapper">
             <strong>{notification.sourceUsername}</strong> is interested in your item <strong>{notification.productName}</strong><br />
             <small className="text-muted">{this.calcTime(notification.timeStamp)}</small>
@@ -141,7 +141,7 @@ class HomeNav extends Component {
       );
     } else if (notification.type === 'STATUS UPDATE') {
       return (
-        <Link to={{pathname: '/user', state: {key: 4}}} className="notification-element">
+        <Link to={{ pathname: '/user', state: { key: 4 } }} className="notification-element">
           <div className="notification-wrapper" onClick={this.directUser}>
             <strong>{notification.sourceUsername + "'s"}</strong> item <strong>{notification.productName}</strong> is now  <strong>{notification.payload.status.toLowerCase()} </strong> <br />
             <small className="text-muted">{this.calcTime(notification.timeStamp)}</small>
@@ -185,7 +185,7 @@ class HomeNav extends Component {
           </div>
         );
       })
-    ) : ( '' );
+    ) : ('');
     // Default content when no notification is present
     if (notifications && notifications.length === 0) {
       notifications.push((
@@ -197,42 +197,49 @@ class HomeNav extends Component {
         </div>
       ));
     }
-    
+
     return (
       <nav className="navbar navbar-expand-sm bgnav navbar-dark sticky-top" >
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <img src="https://img.icons8.com/nolan/70/000000/shopping-cart.png"/>
+        <img src="https://img.icons8.com/nolan/70/000000/shopping-cart.png" />
 
         <div className="logoname">
-          StudentZon <Link to={{pathname: "/", state: {key: 0}}}></Link>
-            {/* <Link to={{pathname: "/", state: {key: 0}}} className="nav-link">StudentZ🌎n</Link>  */}
+          StudentZon <Link to={{ pathname: "/", state: { key: 0 } }}></Link>
+          {/* <Link to={{pathname: "/", state: {key: 0}}} className="nav-link">StudentZ🌎n</Link>  */}
         </div>
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav homenav">
             <li className={"nav-item " + this.state.status[0]}>
-              <Link to={{pathname: "/", state: {key: 0}}} className="nav-link">Home</Link>
+              <br></br>
+              <Link to={{ pathname: "/", state: { key: 0 } }} className="nav-link">Home</Link>
             </li>
             <li className={"nav-item " + this.state.status[1]}>
+            <br></br>
               <Link to={{ pathname: "/buy", state: { key: 1 } }} className="nav-link">Buy</Link>
             </li>
             <li className={"nav-item " + this.state.status[2]}>
+            <br></br>
               <Link to={{ pathname: "/sell", state: { key: 2 } }} className="nav-link">Sell</Link>
             </li>
             <li className={"nav-item " + this.state.status[3]}>
+            <br></br>
               <Link to={{ pathname: "/requirements", state: { key: 3 } }} className="nav-link">Requirements</Link>
             </li>
             <li className={"nav-item " + this.state.status[4]}>
+            <br></br>
               <Link to={{ pathname: "/user", state: { key: 4 } }} className="nav-link">User</Link>
             </li>
             <li className="nav-item">
+            <br></br>
               <a className="nav-link" href="" onClick={this.logOut}>Logout</a> { /* @debug: Float this to right */}
             </li>
             <li>
               <div className="dropdown">
-                <button className="btn btn-dark dropdown-toggle notification-dropdown-button" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={this.notificationHandler}>
-                  <img src="https://img.icons8.com/color/32/000000/appointment-reminders.png" className="bell-img" />({this.state.nofNotifications})
+              
+                <button className="btn btn-dark dropdown-toggle notification-dropdown-button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={this.notificationHandler}>
+                <img src="https://img.icons8.com/color/32/000000/appointment-reminders.png" className="bell-img" />({this.state.nofNotifications})
                 </button>
                 <div className="dropdown-menu notification-dropdown">
                   <h6 className="dropdown-header notification-item">Notifications</h6>

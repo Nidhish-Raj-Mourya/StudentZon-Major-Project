@@ -5,8 +5,12 @@
 
 .notification-dropdown-button {
 	font-size: 80%;
-	margin-top: 7px;
-	margin-left: 15px;
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 15px;
+    padding-top: 20px;
+    height: 30px;
+
 }
 
 .notification-item {
@@ -47,9 +51,27 @@
 }
 .logoname{
 	color: white;
-	font-size: 130%;
+	font-size: 3vh;
 	
 }
 
-.bgnav{background : #313131;}
+.bgnav{
+	background: magenta;
 
+
+}
+
+.collapse{
+
+	background:magenta;
+padding-top: 0 !important;	
+padding-bottom: 0 !important;
+height: 40px;
+font-size : 3vh;
+}
+
+.navbar{
+	padding-top: 0 !important;	
+	padding-bottom: 0 !important;
+	height: 70px;
+}
