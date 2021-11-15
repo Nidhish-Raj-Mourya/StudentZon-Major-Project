@@ -75,7 +75,7 @@
 
 .form-control{
 
-  width: 40%;
+  width: auto;
   margin-right: auto;
   /* margin-left: auto; */
 }
@@ -93,7 +93,6 @@ margin-bottom: 40px;
   text-align: center;
  
 }
-
 
 
 .container-register{
