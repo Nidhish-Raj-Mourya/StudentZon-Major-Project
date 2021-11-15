@@ -74,9 +74,9 @@
 
 .form-control{
 
-  width: 93%;
+  width: 40%;
   margin-right: auto;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .btn{
