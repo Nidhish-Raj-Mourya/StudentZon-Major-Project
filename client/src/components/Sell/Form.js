@@ -125,7 +125,7 @@ class Form extends Component {
           </div>
           <div className="form-group">
             <label htmlFor="exampleFormControlTextarea1">Short Description</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" required minlength="5" maxlength="250" ></textarea>
           </div>
           <h6><img src={upimage} alt="Responsive" /> Upload image</h6>
           <input type="file" name="files" id="files" onChange={this.fileSelectHandler} accept="image/*" multiple required />

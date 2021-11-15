@@ -97,7 +97,7 @@ class Feed extends Component {
             return (
               <div className="container home-container" key={index}>
                 <div className="row">
-                  <div className="card home-card">
+                  <div className="card home-card collapsible">
                     <div className="card-title-color">
                       <img className="req-img" src={plan} />
                       <div className="card-title  home-card-title">
