@@ -5,7 +5,7 @@
 }
 html {
 /* background-color: #fff; */
-background-image:  url(/client/src/components/Home/home-bg.jpg);
+/* background-image:  url(/client/src/components/Home/home-bg.jpg); */
 color: black;
 /* font-family: 'Lato','Arial','sans-serif'; */
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -20,12 +20,13 @@ text-rendering: optimizeLegibility;
   text-decoration: none;
   border-radius: 50vh;
   transition: background-color 0.5s, border 0.5s, color 0.5s;
+  background-color: rgb(5, 133, 253);
 }
 .btn-primary{
   display: inline-block;
   padding: 1.8vh 3.5vh;
   background-color: #0460fC;
-  border: 1px solid #0460fC;
+  border: 1px solid #000000;
   color: #fff;
   border-radius: 50vh;
 }
@@ -59,3 +60,10 @@ a:active{
   text-align:center;
 }
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 2%;
+}
