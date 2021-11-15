@@ -76,13 +76,14 @@ class LogIn extends Component {
 
         <div className="container-register">
 
-<span><h3 id="title">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shri Vaishnav Vidyapeeth Vishwavidyalaya&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</h3> </span> <br></br>
 
 
           <div className="error">
             {errBlock}
           </div>
           <div className="card mb-3 w-95 " id="card">
+          <span><h3 id="title">Shri Vaishnav Vidyapeeth Vishwavidyalaya</h3> </span> 
+
             <div className="row no-gutters">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8" >
                 <div className="bd-example">
