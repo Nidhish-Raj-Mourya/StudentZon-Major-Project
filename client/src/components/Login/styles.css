@@ -26,7 +26,7 @@
 
 
 #forgot{
-    color:black ;
+    color:#0460fC ;
     font-weight: bold;
     text-decoration: none;
     text-transform: capitalize;
@@ -35,6 +35,7 @@
   }
 .flex-centered{
     padding: 5vh 5vh;
+   
 }
 #title{
     color:#0460fC;
@@ -80,8 +81,12 @@
 }
 
 .btn{
-margin-left: 3%;
+margin-bottom: 40px;
 }
+.btn1{
+  margin-top: 20px;
+  margin-left: 150px;
+  }
 
 .h1{
   color: #0460fC;
@@ -94,7 +99,7 @@ margin-left: 3%;
 .container-register{
   background-color: #0460fC;
   width: 100%;  
-  /* min-height: 100vh; */
+  min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -104,10 +109,13 @@ margin-left: 3%;
   justify-content: center;
   align-items: center;
   padding: 1.5vh;
-  padding-bottom: 0vh;
-  height:auto;
-  /* margin-bottom: 20%; */
+
+  padding-bottom: 0px !important;
+  /* height:auto; */
+  /* padding-block-end: 0%; */
+ 
 }
+
 #forgot1{
   color:#0460fC ;
   text-decoration: none;
