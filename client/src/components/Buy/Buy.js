@@ -1,3 +1,4 @@
+import './styles.css';
 import React, { Component } from 'react';
 import HomeNav from '../HomeNav/HomeNav';
 import axios from 'axios';
@@ -97,17 +98,19 @@ class Buy extends Component {
               <label className="cat" >
                 <img src="https://img.icons8.com/color/48/000000/categorize.png"></img> 
                 Category</label>
+              
+              <div className="input-group mb-3">
               <select className="form-control">
                 {categories}
               </select>
-            </div>
-
-            <div className="input-group mb-3">
-              <input type="text" className="form-control" placeholder="Find Text Books, Novels, Electronics and more" aria-label="search" aria-describedby="basic-addon2" />
-              <button className="btn btn-default" type="submit" style={{ marginLeft: "15px", marginTop: "-2px" }}>
+              <input type="text" className="form-control" placeholder="Find Books, notes " aria-label="search" aria-describedby="basic-addon2" />
+              <button className="btn btn-default" type="submit" >
                 <img src="https://img.icons8.com/cotton/50/000000/detective.png" />
               </button>
             </div>
+            </div>
+
+            
           </form>
 
           <div style={{ marginBottom: "20px" }}>
