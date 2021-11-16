@@ -21,6 +21,7 @@
 
 .tabmenuparent {
   position: relative;
+  width: 80%;
 }
 
 .tabmenu {
@@ -28,4 +29,9 @@
   top: 15%;
   left: 1%;
   padding-right: 1rem;
+}
+
+.div.col-9{
+  padding-right: 0px;
+  padding-left: 0px;
 }
