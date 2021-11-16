@@ -1,142 +1,153 @@
-
 .container-login100 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/bg12.png);
-    width: 100%;  
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5vh;
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-  }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/bg12.png);
+  width: 100%;  
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5vh;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
 
 .loginform{
-  padding-top: 1%;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
-  background-color: white;
-  opacity: 0.9;
-  border-radius: 25px;
+padding-top: 1%;
+padding-left: 1.5%;
+padding-right: 1.5%;
+background-color: white;
+opacity: 0.9;
+border-radius: 25px;
 }
 
 
 #forgot{
-    color:#0460fC ;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 3.2vh;
-    padding: 1vh;
-  }
+  color:#0460fC ;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 3.2vh;
+  padding: 1vh;
+}
 .flex-centered{
-    padding: 5vh 5vh;
-   
+  padding: 5vh 5vh;
+ 
 }
 #title{
-    color:#0460fC;
-    font-size: 4.24vh;
-    font-weight: bold;
-    font-family: Abril Fatface;
-    letter-spacing: 0.15vh;
-    word-spacing: 1.4vh;
-    padding-top: -5%; 
-    text-align: center;
-    background-color: white;
-   border-radius: 5px;
-    margin-bottom:-1vh; 
-  }
-  #title2{
-    color:black;
-    font-size: 4.2vh;
-    font-weight: bold;
-    font-family:System-UI;
-    text-align: center;
-    
-  }
+  color:#0460fC;
+  font-size: 6.24vh;
+  font-weight: bold;
+  font-family: Abril Fatface;
+  letter-spacing: 0.15vh;
+  word-spacing: 1.4vh;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 0%;  
+}
+#title2{
+  color:black;
+  font-size: 4.2vh;
+  font-weight: bold;
+  font-family:System-UI;
+  text-align: center;
+  
+}
 
 /* .psw :hover {
-    background-color: salmon;
-  } */
+  background-color: salmon;
+} */
 .cat{
-  color: #0460fC;
-  font-size: 6.3vh;
-  text-align: left;
+color: #0460fC;
+font-size: 6.3vh;
+text-align: left;
 }
 .srch{
-  color: #0460fC;
-  font-size: 125%;
-  text-align: center;
+color: #0460fC;
+font-size: 125%;
+text-align: center;
 }
 
 .form-control{
 
-  width: 40%;
-  margin-right: auto;
-  /* margin-left: auto; */
+width: 93%;
+margin-right: auto;
+margin-left: auto;
+margin-top: auto;
 }
 
 .btn{
 margin-bottom: 40px;
 }
 .btn1{
-  margin-top: 20px;
-  margin-left: 150px;
-  }
+margin-top: 20px;
+margin-left: 150px;
+}
 
 .h1{
-  color: #0460fC;
-  text-align: center;
- 
+color: #0460fC;
+text-align: center;
+
+}
+.carousel-item{
+width: 80%;
+height: auto;
+margin-right: 0%;
 }
 
 
 
 .container-register{
-  background-color: #0460fC;
-  width: 100%;  
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5vh;
+background-color: #0460fC;
+width: 100%;  
+min-height: 100vh;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 1.5vh;
 
-  padding-bottom: 0px !important;
-  /* height:auto; */
-  /* padding-block-end: 0%; */
- 
+padding-bottom: 0px !important;
+/* height:auto; */
+/* padding-block-end: 0%; */
+
 }
 
 #forgot1{
-  color:#0460fC ;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-size: 3.1vh;
-  padding: 1vh;
+color:#0460fC ;
+text-decoration: none;
+text-transform: capitalize;
+font-size: 3.1vh;
+padding: 1vh;
 }
 .wrap-input100 {
-  width: 100%;
-  position: relative;
+width: 100%;
+position: relative;
 }
 
 #cardregister{
-  width: 95%;
-  margin-bottom: 8.5vh;
-  margin-top: 8.7vh;
+width: 95%;
+margin-bottom: 8.5vh;
+margin-top: 8.7vh;
 }
 
 .card-body{
-  /* margin-top:1.6vh; */
-  align-items: center;
-  padding-top: 15%;
+/* margin-top:1.6vh; */
+align-items: center;
+padding-top: 5%;
+
+
 }
 
+.registerform{
+
+  border: 5px solid #B22222;
+
+}

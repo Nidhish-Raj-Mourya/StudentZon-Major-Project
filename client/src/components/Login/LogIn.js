@@ -76,13 +76,13 @@ class LogIn extends Component {
 
         <div className="container-register">
 
-<span><h3 id="title">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shri Vaishnav Vidyapeeth Vishwavidyalaya&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</h3> </span> <br></br>
 
 
           <div className="error">
             {errBlock}
           </div>
           <div className="card mb-3 w-95 " id="card">
+          <span><h3 id="title">Shri Vaishnav Vidyapeeth Vishwavidyalaya</h3> </span>
             <div className="row no-gutters">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8" >
                 <div className="bd-example">
@@ -135,8 +135,8 @@ class LogIn extends Component {
               <input type="password" className="form-control" name="password" placeholder="Password" />
             </div>
 
-            <button type="submit" className="btn btn1 btn-primary" id="index-submit">Submit</button>
-            <span className="psw">Don't have an account? <Link to="/signup" id="forgot"> Register now.</Link></span>
+            <button type="submit" className="btn btn1 btn-primary" id="index-submit">Submit</button><br></br>
+            <span className=" ">Don't have an account? <Link to="/signup" id="forgot"> Register now.</Link></span>
 
 
                   </form>
