@@ -254,6 +254,9 @@ class HomeNav extends Component {
       </nav>
     )
   }
+
+ 
+  
 }
 const mapStateToProps = (state) => {
   return {
@@ -273,5 +276,6 @@ const mapDispatchToProps = (dispatch) => {
     }
   }
 }
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(withRouter(HomeNav));
