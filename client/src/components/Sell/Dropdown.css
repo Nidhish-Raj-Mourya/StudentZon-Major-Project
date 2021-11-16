@@ -10,6 +10,8 @@
     display: block;
  }
 
+ 
+
  .styled-select select {
     background-color: transparent;
     border: black;
