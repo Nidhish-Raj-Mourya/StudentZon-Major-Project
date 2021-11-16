@@ -91,17 +91,14 @@
 {
     font-size: 1.5rem;
     width: 4rem;
-	height: 4rem;
 	z-index: 1;
     background-color: #0460fc;
     color: white;
-    border-color: #0460fc;
-    border-radius: 50%;
-    position: fixed;
+    border-color: rgb(4, 96, 252);
+    border-radius: 12px;
+    margin-top: 0%;
     bottom: 10%;
-    right: 10%;
-    padding-right: -1000px;
-    padding-left: 27px;
+    right: 90%;
 }
 
 .new-item-btn:hover
