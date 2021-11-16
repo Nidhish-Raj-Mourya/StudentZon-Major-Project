@@ -120,6 +120,9 @@ body{
 .card{
     
     min-height: 250px;
+    border-radius: 30px;
+    border-color: aqua;
+    box-shadow: 0 4px 8px 0 rgb(2 81 253);
 }
 
 .card-text{

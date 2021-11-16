@@ -57,14 +57,17 @@
 }
 
 .bgnav{
-	background: magenta;
+	background: rgb(2 81 253);
+	color: azure;
 
 
 }
 
+	
+
 .collapse{
 
-	background:magenta;
+	background:rgb(2 81 253);
 padding-top: 0 !important;	
 padding-bottom: 0 !important;
 height: 40px;

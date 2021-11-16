@@ -62,7 +62,11 @@
     color:gray;
     border-color: black;
 }
-
+.card1{
+    min-height: 250px;
+    border-radius: 30px;
+    border-color: green;
+}
 .box-shadow--8dp 
 {
     box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .14),
@@ -110,5 +114,5 @@
 
 .comment-btn {
     margin-left: -1rem;
-    margin-top: 3.6rem;
+    margin-top: 3rem;
 }
