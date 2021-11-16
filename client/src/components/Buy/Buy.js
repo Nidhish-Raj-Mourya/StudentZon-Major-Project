@@ -96,7 +96,7 @@ class Buy extends Component {
           <form onSubmit={this.submitHandler}>
             <div className="form-group">
               <label className="cat" >
-                <img src="https://img.icons8.com/color/48/000000/categorize.png"></img> 
+                <img src="https://img.icons8.com/ios-filled/50/000000/categorize.png"/>
                 Category</label>
               
               <div className="input-group mb-3">

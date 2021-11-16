@@ -58,7 +58,7 @@ border-radius: 25px;
     
   }
   .carousel-inner{
-    width: 80%;
+    width: 100%;
   }
 
   
@@ -67,7 +67,7 @@ border-radius: 25px;
   .registerform{
     padding-top: 12px;
     align-content: center;
-    padding-left: 50px;
+    padding-left: 50px; 
     border-radius: 25px;
     align-items: center;    
     border-style: solid;
@@ -110,9 +110,9 @@ text-align: center;
 
 }
 .carousel-item{
-width: 80%;
+width: 100%;
 height: auto;
-margin-right: 0%;
+/* margin-right: 0%; */
 }
 .form-group
 {
