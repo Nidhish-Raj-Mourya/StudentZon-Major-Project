@@ -5,7 +5,7 @@
 
 .notification-dropdown-button {
 	font-size: 80%;
-    margin-top: 0px;
+    margin-top: 45px;
     align-items: center;
     margin-left: 15px;
     padding-top: 20px;
@@ -31,9 +31,10 @@
 }
 
 .bell-img {
-	margin-bottom: 4px;
+	margin-bottom: 0px;
 	margin-right: 2px;
 	margin-left: -5px;
+	margin-top: -35px;
 }
 
 .notification-wrapper {

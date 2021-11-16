@@ -29,6 +29,7 @@ text-rendering: optimizeLegibility;
   border: 1px solid #000000;
   color: #fff;
   border-radius: 50vh;
+  margin-bottom: 0px;
 }
 .btn:hover,
 .btn:active {
