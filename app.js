@@ -15,7 +15,14 @@ const app = express();
 
 // environment letiables for jwt token
 require('dotenv').config();
+const uri = process.env.MONGODB_URI;
 
+const aws = require('aws-sdk');
+
+let s3 = new aws.S3({
+  accessKeyId: process.env.S3_KEY,
+  secretAccessKey: process.env.S3_SECRET
+});
 mongoose.Promise = global.Promise;
 
 const mongodb_uri = process.env.NODE_ENV ? process.env.MONGODB_URI : "mongodb://localhost/mydb";
