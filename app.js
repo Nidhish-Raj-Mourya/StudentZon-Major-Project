@@ -16,7 +16,6 @@ const app = express();
 // environment letiables for jwt token
 require('dotenv').config();
 mongoose.Promise = global.Promise;
-
 const mongodb_uri = process.env.NODE_ENV ? process.env.MONGODB_URI : "mongodb://localhost/mydb";
 
 mongoose.connect(mongodb_uri, { useNewUrlParser: true })
