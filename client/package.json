@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "start":" node app.js",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client npm && run build --prefix client"
+    "heroku-postbuild": "echo Skip build on Heroku"
+
   },
   "eslintConfig": {
     "extends": "react-app"
