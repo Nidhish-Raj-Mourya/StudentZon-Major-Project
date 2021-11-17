@@ -23,7 +23,6 @@ mongoose.connect(mongodb_uri, { useNewUrlParser: true })
 
 // Setup mongodb connection for image storage
 const conn = mongoose.connection;
-const port = process.env.PORT || 8000;
 
 
 let gfs;
@@ -141,5 +140,5 @@ if(process.env.NODE_ENV =='production')
   })
   }
 
-app.listen(process.env.PORT || 8000);
+app.listen(process.env.PORT);
 console.log(`Listening to port ${port}`);
