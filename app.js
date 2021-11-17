@@ -15,7 +15,6 @@ const app = express();
 
 // environment letiables for jwt token
 require('dotenv').config();
-const uri = process.env.MONGODB_URI;
 
 const aws = require('aws-sdk');
 
@@ -138,5 +137,9 @@ app.post('/removeitem', (req, res) => {
   });
 });
 
+if(process.env.NODE_ENV =='production')
+{
+  app.use(express.static('client/build'));
+}
 app.listen(process.env.PORT || 8000);
 console.log(`Listening to port ${port}`);
