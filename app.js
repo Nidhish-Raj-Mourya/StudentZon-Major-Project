@@ -23,6 +23,8 @@ mongoose.connect(mongodb_uri, { useNewUrlParser: true })
 
 // Setup mongodb connection for image storage
 const conn = mongoose.connection;
+const port = process.env.PORT || 8000;
+
 
 let gfs;
 
