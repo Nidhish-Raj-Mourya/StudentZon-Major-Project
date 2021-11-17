@@ -1,5 +1,5 @@
 {
-  "name": "besit-final",
+  "name": "student-zon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -48,13 +48,13 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Raghu150999/BESit.git"
+    "url": "git+https://github.com/Mahak-Bhansali/StudentZon-A-Reselling-Platform"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Raghu150999/BESit/issues"
+    "url": "https://github.com/Mahak-Bhansali/StudentZon-A-Reselling-Platform/issues"
   },
-  "homepage": "https://github.com/Raghu150999/BESit#readme",
+  "homepage": "https://github.com/Mahak-Bhansali/StudentZon-A-Reselling-Platform#readme",
   "heroku-run-build-script": true
 }
