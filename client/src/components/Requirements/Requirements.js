@@ -67,11 +67,11 @@ class Requirements extends Component {
             <form onSubmit={this.submitForm}>
               <div className="form-group">
                 <label>Title</label>
-                <input type="text" className="form-control" placeholder="Title"></input>
+                <input type="text" className="form-control" placeholder="Title" required></input>
               </div>
               <div className="form-group">
                 <label>Description</label>
-                <textarea type="text" className="form-control" placeholder="About Requirement" rows="3"></textarea>
+                <textarea type="text" className="form-control" placeholder="About Requirement " rows="3" required></textarea>
               </div>
               <button>Submit</button>
             </form>

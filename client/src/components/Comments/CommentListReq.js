@@ -65,7 +65,7 @@ export default class CommentListReq extends Component {
 			<div className="comment-container">
 				<form onSubmit={this.handlePost}>
 					<div className="form-group shadow-textarea">
-						<textarea className="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
+						<textarea className="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..." required></textarea>
 						<button className="btn btn-primary post-btn">Post</button>
 					</div>
 				</form>
