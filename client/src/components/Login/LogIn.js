@@ -81,7 +81,7 @@ class LogIn extends Component {
           <div className="error">
             {errBlock}
           </div>
-          <div className="card mb-3 w-95 " id="card">
+          <div className="card logincard mb-0 w-95 " id="card">
           <span><h3 id="title">Shri Vaishnav Vidyapeeth Vishwavidyalaya</h3> </span>
             <div className="row no-gutters">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8" >
@@ -120,7 +120,8 @@ class LogIn extends Component {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                 <div className="card-body">
                   <form className="registerform" onSubmit={this.handleSubmit}>
-                   
+                  <h4 id="title1">Login</h4> 
+      
 
 <div className="form-group" data-validate="Enter username">
               <label htmlFor="Username">&emsp; Username</label>
@@ -135,7 +136,7 @@ class LogIn extends Component {
               <input type="password" className="form-control" name="password" placeholder="Password" />
             </div>
 
-            <button type="submit" className="btn btn1 btn-primary" id="index-submit">Submit</button><br></br>
+            <button type="submit" className="btn btn1 btn-2 btn-primary" id="index-submit">Submit</button><br></br>
             <span className=" ">Don't have an account? <Link to="/signup" id="forgot"> Register now.</Link></span>
 
 

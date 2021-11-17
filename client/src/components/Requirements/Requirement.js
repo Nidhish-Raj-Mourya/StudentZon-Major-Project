@@ -55,7 +55,7 @@ class Requirement extends Component {
     let t = this.state.requirements.length > 0 ?
       (y.map((requirement, index) => {
         return (
-          <div className="container req-container" key={index}>
+          <div className="container container1 req-container" key={index}>
             <div className="row">
               <div className="col-sm-6">
                 <div className="card req-card">

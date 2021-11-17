@@ -92,7 +92,7 @@ class Products extends Component {
       <div>
         <Button />
         {header}
-        <div className="container" style={{marginBottom: "20px",maxWidth: "1300px"}}>
+        <div className="container container1" style={{marginBottom: "20px",maxWidth: "1200px"}}>
             {displayItems}
         </div>
       </div>

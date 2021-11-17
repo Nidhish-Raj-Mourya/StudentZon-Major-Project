@@ -47,6 +47,12 @@ span.psw{
   color: #606160  ;
   font-weight: bold;
 }
+span.psw1{
+  float:right;
+  padding-top: 1.0vh;
+  color: #606160  ;
+  font-weight: bold;
+}
 a:link,
 a:visited{
   border-bottom: 2px solid transparent;
@@ -68,15 +74,20 @@ a:active{
     margin-right: 0px;
     margin-left: 0%;
 }
+.container1 {
+   margin-left: 10%;
+}
 
 .col-9{
 
-  background-color: red;
+  /* background-color: red; */
   /* padding: 0px 0px; */
-  max-width: 70%
+  max-width: 70%;
+  padding-left: 10%;
   }
 
 .col-3{
   padding: 0px;
   
 }
+

@@ -34,3 +34,29 @@
     margin-top:1.6vh;
 }
 
+.card-body1{
+    margin-top:2.0vh;
+    padding-top: 5%;
+    margin-right: 20px;
+}
+
+
+
+#title1{
+    color: black;
+    font-size: 4.24vh;
+    font-weight: bold;
+    font-family: Abril Fatface;
+    letter-spacing: 0.15vh;
+    word-spacing: 1.4vh;
+    padding-top: -5%; 
+    text-align: center;
+    background-color: white;
+   border-radius: 5px;
+    margin-bottom:4vh; 
+  }
+
+  .btn2{
+    margin-bottom: 2px;
+    margin-top: 30px;
+    }

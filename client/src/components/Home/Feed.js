@@ -95,7 +95,7 @@ class Feed extends Component {
         (w.map((feedItem, index) => {
           if (feedItem.type === 'requirement') {
             return (
-              <div className="container home-container" key={index}>
+              <div className="container container1 home-container" key={index}>
                 <div className="row">
                   <div className="card home-card collapsible">
                     <div className="card-title-color">
@@ -117,7 +117,7 @@ class Feed extends Component {
           }
           else {
             return (
-              <div className="container home-container" key={index}>
+              <div className="container container1 home-container" key={index}>
                 <div className="row">
                   <div className="card home-card">
                     <div className="card-title-color1">

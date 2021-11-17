@@ -52,7 +52,8 @@ class SignUp extends Component {
         <div className="error">
           {errBlock}
         </div>
-        <div className="card mb-3 w-95 " id="card">
+        <div className="card w-95 " id="card">
+          
           <div className="row no-gutters">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8" >
               <div className="bd-example">
@@ -123,8 +124,11 @@ class SignUp extends Component {
             </div>
 
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <div className="card-body">
+              <div className=" card-body1">
                 <form className="registerform" onSubmit={this.handleSubmit}>
+
+                <h4 id="title1">Signup</h4> 
+
                   <div className="form-group">
                     <label htmlFor="Username" className="sr-only">UserName</label>
                     <input type="text" className="form-control" name="username" aria-describedby="emailHelp" placeholder="UserName" />
@@ -151,11 +155,11 @@ class SignUp extends Component {
                   </div>
 
                   <div className="container-button">
-                    <button type="submit" className="btn btn-primary" id="register-submit">Submit</button>
+                    <button type="submit" className="btn btn2 btn-primary" id="register-submit">Submit</button>
                   </div>
 
                   <div className="row">
-                    <span className="psw">Already have an account? <Link to="/" id="forgot1"> Login now</Link></span>
+                    <span className="psw1">Already have an account? <Link to="/" id="forgot1"> Login now</Link></span>
                   </div>
 
                 </form>

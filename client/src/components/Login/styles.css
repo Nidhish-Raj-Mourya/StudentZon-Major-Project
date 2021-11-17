@@ -46,9 +46,25 @@ border-radius: 25px;
     padding-top: -5%; 
     text-align: center;
     background-color: white;
-   border-radius: 5px;
+   border-radius: 50px;
     margin-bottom:-1vh; 
   }
+
+  #title1{
+    color: black;
+    font-size: 4.24vh;
+    font-weight: bold;
+    font-family: Abril Fatface;
+    letter-spacing: 0.15vh;
+    word-spacing: 1.4vh;
+    padding-top: -5%; 
+    text-align: center;
+    background-color: white;
+   border-radius: 5px;
+    margin-bottom:4vh; 
+  }
+
+
   #title2{
     color:black;
     font-size: 4.2vh;
@@ -67,7 +83,7 @@ border-radius: 25px;
   .registerform{
     padding-top: 12px;
     align-content: center;
-    padding-left: 50px; 
+    padding-left: 40px; 
     border-radius: 25px;
     align-items: center;    
     border-style: solid;
@@ -98,10 +114,14 @@ text-align: center;
 
 .btn{
 margin-bottom: 40px;
+/* margin-top: 20px; */
 }
+
 .btn1{
-  margin-top: 20px;
-  margin-left: auto;
+  /* margin-top: 30px; */
+  margin-left: 110px;
+  margin-bottom: 9%;
+  
   }
 
 .h1{
@@ -160,19 +180,25 @@ margin-top: 8.7vh;
 .card-body{
 /* margin-top:1.6vh; */
 align-items: center;
-padding-top: 5%;
-
+padding-top: 7%;
+margin-top:2.0vh;
 
 }
 
 .registerform{
 
-  border: 5px solid #B22222;
-
+  border: 5px solid #000000;
+  
 }
 
 .container{
 
   padding: 0vh;
 
+}
+
+.logincard{
+
+  padding:0 0;
+  margin: 0 0;
 }
