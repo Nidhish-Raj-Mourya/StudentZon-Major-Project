@@ -107,9 +107,9 @@ text-align: center;
 
 .form-control{
 
-  width: auto;
+  /* width: auto;
   margin-right: auto;
-  /* margin-left: auto; */
+   margin-left: auto;  */
 }
 
 .btn{
