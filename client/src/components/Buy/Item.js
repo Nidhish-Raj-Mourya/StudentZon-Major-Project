@@ -169,7 +169,7 @@ class Item extends Component {
 		if (item.fileNames.length > 0) {
 			carouselElements.push((
 				<div className="carousel-item active" key="0">
-					<img src={api_uri + "/image/" + item.fileNames[0]} className="card-img-top" alt="Card image cap" />
+					<img src={"/image/" + item.fileNames[0]} className="card-img-top" alt="Card image cap" />
 				</div>
 			));
 		} else {
