@@ -99,15 +99,15 @@ class Buy extends Component {
                 <img src="https://img.icons8.com/ios-filled/50/000000/categorize.png"/>
                 Category</label>
               
-              <div className="input-group mb-3">
-              <select className="form-control">
+              <div className="input-group mb-3 form-group">
+                <select className="form-control">
                 {categories}
-              </select>
-              <input type="text" className="form-control" placeholder="Find Books, notes " aria-label="search" aria-describedby="basic-addon2" />
-              <button className="btn btn-default" type="submit" >
+                </select>
+                <input type="text" className="form-control" placeholder="Find Books, notes " aria-label="search" aria-describedby="basic-addon2" />
+                <button className="btn btn-default" type="submit" >
                 <img src="https://img.icons8.com/cotton/50/000000/detective.png" />
-              </button>
-            </div>
+                </button>
+              </div>
             </div>
 
             

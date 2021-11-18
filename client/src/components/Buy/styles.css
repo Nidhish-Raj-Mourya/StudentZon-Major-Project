@@ -1,8 +1,8 @@
-.input-group{
+.input-group {
     width: 50%;
-    padding-top: 0px;
+    padding-top: 0;
+    margin-left: 182px;
 }
-
 .form-control{
     margin-right: 35px;
     margin-left: -20px;
