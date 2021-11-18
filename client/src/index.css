@@ -38,7 +38,7 @@ text-rendering: optimizeLegibility;
 }
 label {
   color: black;
-  font-weight: bold;
+  font-weight: 500;
   /* background-color: salmon; */
 }
 span.psw{
