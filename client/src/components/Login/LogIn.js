@@ -82,7 +82,7 @@ class LogIn extends Component {
             {errBlock}
           </div>
           <div className="card logincard mb-0 w-95 " id="card">
-          <span><h3 id="title">Shri Vaishnav Vidyapeeth Vishwavidyalaya</h3> </span>
+          <span><h3 id="title">Vaishnav Vidyapeeth Vishwavidyalaya</h3> </span>
             <div className="row no-gutters">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8" >
                 <div className="bd-example">
